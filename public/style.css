@@ -16,7 +16,7 @@
     --Light-slate-blue:  hsl(252, 100%, 67%);
     --Light-royal-blue: hsl(241, 81%, 54%);
     --Violet-blue:  hsla(256, 72%, 46%, 1);
-    --Persian-blue:  
+    --Persian-blue:  hsla(241, 72%, 46%, 0);
     /* Neutral */
     --white: hsl(0, 0%, 100%);
     --Pale-blue: hsl(221, 100%, 96%);
@@ -50,28 +50,65 @@
 }
 
 .left h2{
-
-    color: #D9D4FF;
+    color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.25em;
-    margin-top: 40px;
+    margin-top: 30px;
+    opacity: .6;
 }
 
 .left article {
     display: grid;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(var(--Light-royal-blue), var(--Persian-blue) );
-    padding: 80px;
+    background: linear-gradient(var(--Violet-blue),var(--Persian-blue));
+    padding: 60px;
     margin: 40px;
     border-radius: 50%;
+    margin-top: 20px;
 }
+
+.primary {
+    color: var(--white);
+    font-size: 4.5em;
+    margin-top: -35px;
+    font-weight: 800;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    color: var(--white);
+    opacity: .4;
+}
+
+.description h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    color: var(--white);
+    font-weight: 5600;
+}
+
+.description p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    opacity: .6;
+    padding-top: 20px;
+}
+
+
 .rigth{
 
     background-color: var(--Light-lavender);
     height: 55vh;
     width: 350px;
-
+    
 }
