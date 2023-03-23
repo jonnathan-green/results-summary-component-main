@@ -22,7 +22,6 @@
     --Pale-blue: hsl(221, 100%, 96%);
     --Light-lavender: hsl(241, 100%, 89%);
     --Dark-gray-blue: hsl(224, 30%, 27%);
-
 }
 
 .container{
@@ -103,7 +102,6 @@
     opacity: .6;
     padding-top: 20px;
 }
-
 
 .rigth{
 
