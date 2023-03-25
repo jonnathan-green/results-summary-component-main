@@ -104,9 +104,27 @@
 }
 
 .rigth{
-
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 75px;
     background-color: var(--Light-lavender);
     height: 55vh;
     width: 350px;
+}
+
+.title_rigth{
+    font-weight: 800;
+}
+
+.score{
+    display: flex;
+    padding: 20px 100px 20px 0;
+}
+
+.one .two .three .four{
+
     
 }
+
+
