@@ -46,6 +46,7 @@
     min-height: 55vh;
     min-width: 374px;
     border-radius: 30px;
+   
 }
 
 .left h2{
@@ -114,7 +115,6 @@
     grid-template-rows: 70px 3fr 2fr;
     padding: 0 60px;
     height: 496px;
-    min-width: 390px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     box-shadow:
@@ -195,11 +195,46 @@ button:hover{
     background: linear-gradient( var(--Light-royal-blue), var(--Violet-blue))
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px){
     .container{
-        display: grid;
+       display: grid;
+       
     }
-   
+    .rigth{
+        margin-top: -25px;
+    }
+}
+
+@media only screen and (max-width: 485px){
+
+    .left{
+        margin-left: -53px;
+        margin-top: -80px;
+       
+    }
+
+    .left h2{
+        margin-top: 130px;
+    }
+
+    .left article{
+        margin-top: 50px;
+    }
+
+    .primary{
+        padding: 5px;
+        font-size: 3em;
+    }
+    .second{
+        margin-top: 5px;
+    }
+    .description h1{
+        margin-top: -100px;
+    }
+
+    .description p{
+        white-space: nowrap;
+    }
 }
 
 
